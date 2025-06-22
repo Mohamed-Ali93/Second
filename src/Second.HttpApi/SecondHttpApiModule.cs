@@ -1,4 +1,5 @@
-﻿using Localization.Resources.AbpUi;
+using UserManagment;
+using Localization.Resources.AbpUi;
 using Second.Localization;
 using Volo.Abp.Account;
 using Volo.Abp.SettingManagement;
@@ -12,6 +13,7 @@ using Volo.Abp.TenantManagement;
 namespace Second;
 
  [DependsOn(
+    typeof(UserManagmentHttpApiModule),
     typeof(SecondApplicationContractsModule),
     typeof(AbpPermissionManagementHttpApiModule),
     typeof(AbpSettingManagementHttpApiModule),

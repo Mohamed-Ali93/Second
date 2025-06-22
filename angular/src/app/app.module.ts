@@ -1,3 +1,4 @@
+import { UserManagmentConfigModule } from '@user-managment/config';
 import { CoreModule, provideAbpCore, withOptions } from '@abp/ng.core';
 import { provideAbpOAuth } from '@abp/ng.oauth';
 import { provideSettingManagementConfig } from '@abp/ng.setting-management/config';
@@ -21,6 +22,7 @@ import { APP_ROUTE_PROVIDER } from './route.provider';
   declarations: [AppComponent],
   imports: [
     BrowserModule,
+    UserManagmentConfigModule.forRoot(),
     BrowserAnimationsModule,
     AppRoutingModule,
     ThemeSharedModule,

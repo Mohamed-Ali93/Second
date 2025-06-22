@@ -1,3 +1,4 @@
+using UserManagment.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Volo.Abp.AuditLogging.EntityFrameworkCore;
 using Volo.Abp.BackgroundJobs.EntityFrameworkCore;
@@ -66,6 +67,8 @@ public class SecondDbContext :
     protected override void OnModelCreating(ModelBuilder builder)
     {
         base.OnModelCreating(builder);
+
+        builder.ConfigureUserManagment();
 
         /* Include modules to your migration db context */
 

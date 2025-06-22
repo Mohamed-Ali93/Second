@@ -1,4 +1,5 @@
-﻿using Volo.Abp.PermissionManagement;
+using UserManagment;
+using Volo.Abp.PermissionManagement;
 using Volo.Abp.SettingManagement;
 using Volo.Abp.Account;
 using Volo.Abp.Identity;
@@ -10,6 +11,7 @@ using Volo.Abp.TenantManagement;
 namespace Second;
 
 [DependsOn(
+    typeof(UserManagmentApplicationModule),
     typeof(SecondDomainModule),
     typeof(SecondApplicationContractsModule),
     typeof(AbpPermissionManagementApplicationModule),

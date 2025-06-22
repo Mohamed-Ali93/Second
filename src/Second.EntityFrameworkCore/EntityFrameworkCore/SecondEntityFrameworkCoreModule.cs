@@ -1,3 +1,4 @@
+using UserManagment.EntityFrameworkCore;
 using System;
 using Microsoft.Extensions.DependencyInjection;
 using Volo.Abp.Uow;
@@ -18,6 +19,7 @@ using Volo.Abp.Studio;
 namespace Second.EntityFrameworkCore;
 
 [DependsOn(
+    typeof(UserManagmentEntityFrameworkCoreModule),
     typeof(SecondDomainModule),
     typeof(AbpPermissionManagementEntityFrameworkCoreModule),
     typeof(AbpSettingManagementEntityFrameworkCoreModule),

@@ -1,3 +1,4 @@
+using UserManagment;
 using Second.Localization;
 using Volo.Abp.AuditLogging;
 using Volo.Abp.BackgroundJobs;
@@ -17,6 +18,7 @@ using Volo.Abp.TenantManagement;
 namespace Second;
 
 [DependsOn(
+    typeof(UserManagmentDomainSharedModule),
     typeof(AbpAuditLoggingDomainSharedModule),
     typeof(AbpBackgroundJobsDomainSharedModule),
     typeof(AbpFeatureManagementDomainSharedModule),

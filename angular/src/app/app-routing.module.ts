@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
+  { path: 'user-managment', loadChildren: () => import('@user-managment').then(m => m.UserManagmentModule.forLazy()) },
   {
     path: '',
     pathMatch: 'full',

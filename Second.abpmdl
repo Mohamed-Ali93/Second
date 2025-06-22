@@ -32,6 +32,10 @@
     "Volo.Abp.FeatureManagement": {
       "version": "9.2.0",
       "isInstalled": true
+    },
+    "UserManagment": {
+      "path": "../First/usermanagment/UserManagment.abpmdl",
+      "isInstalled": true
     }
   },
   "folders": {

@@ -1,3 +1,4 @@
+using UserManagment;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Second.Localization;
@@ -21,6 +22,7 @@ using Volo.Abp.TenantManagement;
 namespace Second;
 
 [DependsOn(
+    typeof(UserManagmentDomainModule),
     typeof(SecondDomainSharedModule),
     typeof(AbpAuditLoggingDomainModule),
     typeof(AbpCachingModule),
