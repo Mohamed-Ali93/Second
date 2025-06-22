@@ -1,0 +1,16 @@
+﻿{
+  "packages": {
+    "Test": {
+      "path": "Test/Test.abppkg"
+    },
+    "Test.UI": {
+      "path": "Test.UI/Test.UI.abppkg"
+    },
+    "Test.Tests": {
+      "path": "Test.Tests/Test.Tests.abppkg"
+    },
+    "Test.Contracts": {
+      "path": "Test.Contracts/Test.Contracts.abppkg"
+    }
+  }
+}

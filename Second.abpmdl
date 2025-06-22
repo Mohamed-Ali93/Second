@@ -1,0 +1,101 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXLiteTheme": {
+      "version": "4.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account": {
+      "version": "9.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "9.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "9.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "9.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.2.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.2.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Second.Application": {
+      "path": "src/Second.Application/Second.Application.abppkg",
+      "folder": "src"
+    },
+    "Second.Application.Tests": {
+      "path": "test/Second.Application.Tests/Second.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Second.Domain.Shared": {
+      "path": "src/Second.Domain.Shared/Second.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Second.Application.Contracts": {
+      "path": "src/Second.Application.Contracts/Second.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Second.HttpApi": {
+      "path": "src/Second.HttpApi/Second.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Second.HttpApi.Client": {
+      "path": "src/Second.HttpApi.Client/Second.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Second.EntityFrameworkCore.Tests": {
+      "path": "test/Second.EntityFrameworkCore.Tests/Second.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Second.EntityFrameworkCore": {
+      "path": "src/Second.EntityFrameworkCore/Second.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Second.TestBase": {
+      "path": "test/Second.TestBase/Second.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Second.Domain.Tests": {
+      "path": "test/Second.Domain.Tests/Second.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Second.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Second.HttpApi.Client.ConsoleTestApp/Second.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Second.DbMigrator": {
+      "path": "src/Second.DbMigrator/Second.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Second.HttpApi.Host": {
+      "path": "src/Second.HttpApi.Host/Second.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Second.Domain": {
+      "path": "src/Second.Domain/Second.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
